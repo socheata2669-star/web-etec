@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> 
+</head>
+<body>
+    <div class="container-fluid p-5">
+        <div class="w-100">
+            <h1 class="text-danger text-opacity-100 fw-bold">Stock Inventory</h1>
+            <p>Stock of product in MyShop</p>
+        </div>
+
+        <div class="row">
+            <div class="col co;-lg-4">
+                <div class="card p-2">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h2>Total Product</h2>
+                            <p>1200 products</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-box-seam-fill" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.01-.003.268-.108a.75.75 0 0 1 .558 0l.269.108.01.003zM10.404 2 4.25 4.461 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339L8 5.961 5.596 5l6.154-2.461z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col co;-lg-4">
+                <div class="card p-2">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h2>Intsock</h2>
+                            <p>500 products</p>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-box-seam-fill" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.01-.003.268-.108a.75.75 0 0 1 .558 0l.269.108.01.003zM10.404 2 4.25 4.461 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339L8 5.961 5.596 5l6.154-2.461z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col co;-lg-4">
+                <div class="card p-2">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h2>Outstock</h2>
+                            <p>700 products</p>
+                        </div>
+                       <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
+                           <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2zm3.564 1.426L5.596 5 8 5.961 14.154 3.5zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-fluid mt-3">
+                <div class="d-flex justify-content-between">
+                    <p class="fs-5">Inventory Iterm</p>
+                    <button class="bg-primary btn text-light">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+                           <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+                        </svg>
+                        Add Iterm
+                    </button>
+                </div>
+            </div>
+
+            <table class="table">
+                <tr>
+                    <th>Iterm Name</th>
+                    <th>Category</th>
+                    <th>Qty</th>
+                    <th>MinStock</th>
+                    <th>Uniprice</th>
+                    <th>Supplies</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

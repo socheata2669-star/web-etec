@@ -1,0 +1,96 @@
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(127, 185, 255, 0.973);
+    padding: 30px;
+    margin: auto;
+    top: 0;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.box_image{
+    width: 70px;
+    height: 70px;
+    border: 2px solid gray;
+    border-radius: 180px;
+}
+.box_image>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.slide>img{
+    width: 100%;
+    object-fit: contain;
+}
+.container{
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 550px;
+    gap: 10px ;
+    padding: 20px;
+    
+}
+.card{
+    background-color: rgba(43, 171, 226, 0.362);
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+.box_img{
+    height:65% ;
+    width: 100%;
+    border: 1px ;
+    margin: auto;
+    border-radius: 10px 10px ;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    
+
+}
+.price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.description{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 30px;
+    border: 1px;
+    border-radius:10px ;
+    background-color: rgba(0, 0, 255, 0.293);
+    color: aliceblue;
+}
+button:hover{
+    background-color: red;
+    color: aliceblue;
+}
